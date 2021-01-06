@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;  
+}
+.navbar{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.menu-item{
+    width: 80%;
+    float: right;
+    text-align: right ;
+}
+.menu-item ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.menu-item ul li a{
+    text-decoration: none;
+    color:#3C3C3C;
+    font-size: 20px;
+    font-weight: 400;
+}
+.title{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #363958;
+    text-transform: uppercase;
+}
+.portfolio{
+    width: 100%;
+}
+.top-banner{
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    width:50%;
+    float: right;
+}
+.right img{
+    width:350px;
+    height:350px;
+}
+.left img{
+    width: 350px;
+    height: 350px;
+}
+.description{
+    font-family: Roboto;
+    font-size: 18px;
+    color: #3E3E3E;
+}
+.main-button{
+    width: 170px;
+    height: 50px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    color: #fff;
+    text-decoration:none;
+    border-radius: 5px;
+    border: 1px solid #F46060 ;
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    bottom: -346px;
+    left: 685px;
+}
+.arrow img{
+    width: 20px;
+    height: 20px;
+}
+.about{
+    width: 100%;
+    display: flow-root;
+    margin-bottom: 60px;
+}
+.work{
+    width: 100%;
+    display: flow-root;
+    background-color: #E5E5E5;
+    padding-top: 80px;
+    padding-bottom:80px
+}
+.latest{
+    text-align: center;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-size: 26px;
+    color: #363958;
+}
+.project{
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+}
+.project-one{
+    width:30%;
+    float: left;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    background-color: #fff;
+}
+.project-two{
+    width: 30%;
+    float:left;
+    margin-left:20px;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    background-color: #fff;
+  
+}
+.project-three{
+    width:30%;
+    float: left;
+    margin-left:20px;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    background-color: #fff;
+}
+.project-one img{
+    width: 343px;
+    height: 213px;
+}
+.project-two img{
+    width: 343px;
+    height: 213px;
+}
+.project-three img{
+    width: 343px;
+    height: 213px;
+}
+.work-title{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 15px 15px;
+    color: #363958;
+}
+.work-description{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contact{
+    width: 100%;
+    display: flow-root;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.contact-form{
+    background-image: url(img/Group_33094_1.png);
+    width: 906px;
+    height: 225px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:80px;
+}
+.inquery{
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 42px;
+    color: #FFFFFF;
+    padding-top: 80px;
+    padding-left: 80px;
+    text-transform: uppercase;
+}
+.touch{
+    width: 100%;
+    float: left;
+}
+.touch-left{
+    width: 80%;
+    float: left;
+}
+.touch-right{
+    width: 20%;
+    float: right;
+    padding-top: 80px;
+}
+.chat-button{
+    width: 114px;
+    height: 50px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    color: #fff;
+    border: 1px solid #F46060 ;
+}
+footer{
+    width: 100%;
+    display: flow-root;
+}
+.last-part{
+    text-align: center;
+}
+.hello{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    color: #363958;
+    padding-bottom: 10px;
+}
+.stay{
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 24px;
+    color: #696871;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.social-icon img{
+    height: 40px;
+    width: 40px;
+}
+.service{
+    width: 100%;
+    display: flow-root;
+    background-color:#EBF3FD ;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.my{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #363958;
+    text-transform: uppercase;
+    text-align: center;
+}
+.serve{
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+}
+.service-one{
+    width: 46%;
+    float:left;
+    padding: 10px 12px 10px 12px;
+    margin: 0px 0px 20px 22px;
+    font-family: "Rajdhani", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000F1D;
+    background: #EBF3FD;
+    box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.5);
+    text-align: center;
+}
+.service-two{
+    width: 46%;
+    float: right;
+    padding: 10px 12px 10px 12px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Rajdhani", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000F1D;
+    background: #EBF3FD;
+    box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.5);
+    text-align: center;
+   
+}
+.service-one img{
+    height: 80px;
+    width: 80px;
+    padding-left:15px
+}
+.service-two img{
+    height: 80px;
+    width: 80px;
+    padding-left: 10px
+}
